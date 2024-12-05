@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QA Testing Team</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+        }
+        h1 {
+            color: #4CAF50;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        .status {
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        .in-progress {
+            background-color: #ffd700;
+            color: #000;
+        }
+        .to-do {
+            background-color: #ff6347;
+            color: white;
+        }
+        .testing {
+            background-color: #1e90ff;
+            color: white;
+        }
+        .review {
+            background-color: #ffa500;
+            color: #000;
+        }
+        .done {
+            background-color: #32cd32;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>QA Testing Team Tasks</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Issue ID</th>
+                <th>Task Description</th>
+                <th>Priority</th>
+                <th>Assigned To</th>
+                <th>Status</th>
+                <th>Due Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>QA-1</td>
+                <td>Test login functionality</td>
+                <td>High</td>
+                <td>Tester A</td>
+                <td><span class="status in-progress">In Progress</span></td>
+                <td>2024-12-10</td>
+            </tr>
+            <tr>
+                <td>QA-2</td>
+                <td>Validate inventory CRUD operations</td>
+                <td>Medium</td>
+                <td>Tester B</td>
+                <td><span class="status to-do">To Do</span></td>
+                <td>2024-12-15</td>
+            </tr>
+            <tr>
+                <td>QA-3</td>
+                <td>Perform UI testing for dashboard</td>
+                <td>Low</td>
+                <td>Tester C</td>
+                <td><span class="status testing">Testing</span></td>
+                <td>2024-12-20</td>
+            </tr>
+            <tr>
+                <td>QA-4</td>
+                <td>Cross-browser compatibility tests</td>
+                <td>Medium</td>
+                <td>Tester D</td>
+                <td><span class="status review">Review</span></td>
+                <td>2024-12-18</td>
+            </tr>
+            <tr>
+                <td>QA-5</td>
+                <td>Security vulnerability testing</td>
+                <td>High</td>
+                <td>Tester E</td>
+                <td><span class="status done">Done</span></td>
+                <td>2024-12-08</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
